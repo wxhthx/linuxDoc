@@ -73,3 +73,8 @@ sudo apt-get install mysql-client-core
 sudo ln -s /usr/local/mysql/bin/mysql /usr/local/bin/mysql  
 ```
 然后重新启动系统
+
+## mysq操作（启动/关闭/状态查看）
+1. 启动/关闭/查看状态
+```Bash
+sudo /etc/init.d/mysql.service 【start/stop/status]
